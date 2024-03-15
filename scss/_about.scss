@@ -24,12 +24,12 @@
 }
 
 .main__content {
-	color: #fff;
+	color: #f6f8f4;
 	width: 100%;
 
 	h2 {
 		font-size: 4rem;
-		color: $pink;
+		color: #e38cdb;
 	}
 
 	p {
@@ -39,7 +39,7 @@
 
 	p,
 	h1 {
-		color: #000;
+		color: #000000;
 		font-size: 2rem;
 		font-weight: 300;
 	}
@@ -47,7 +47,7 @@
 
 .fix1 {
 	font-size: 1.5rem;
-	background-color: #fe3b6f;
+	background-color: #e38cdb;
 	background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 	background-size: 100%;
 	background-clip: text;
@@ -80,7 +80,7 @@
 .main__btn a {
 	position: relative;
 	z-index: 2;
-	color: #eeedeb;
+	color: #f6f8f4;
 	text-decoration: none;
 }
 
@@ -91,7 +91,7 @@
 	left: 0;
 	width: 0;
 	height: 100%;
-	background: #000;
+	background: $black;
 	transition: all 0.35s;
 	border-radius: 4px;
 }
@@ -198,7 +198,7 @@
 
 	h2 {
 		font-size: 4rem;
-		color: $pink;
+		color: #000000;
 	}
 
 	p {
@@ -208,7 +208,7 @@
 
 	p,
 	h1 {
-		color: #000;
+		color: #000000;
 		font-size: 2rem;
 		font-weight: 300;
 	}
@@ -216,7 +216,7 @@
 
 .fix1 {
 	font-size: 1.5rem;
-	background-color: #fe3b6f;
+	background-color: #e38cdb;
 	background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 	background-size: 100%;
 	background-clip: text;
@@ -234,8 +234,8 @@
 .main__btn {
 	font-size: 1rem;
 	background: #833ab4;
-	background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
-	background: linear-gradient(to right, $pink, $pink, $pink);
+	background: -webkit-linear-gradient(to right, $black, $black, $black);
+	background: linear-gradient(to right, $black, $black, $black);
 	padding: 11px 31px;
 	border: none;
 	border-radius: 7px;
@@ -249,7 +249,7 @@
 .main__btn a {
 	position: relative;
 	z-index: 2;
-	color: #eeedeb;
+	color: #f6f8f4;
 	text-decoration: none;
 }
 
@@ -260,7 +260,7 @@
 	left: 0;
 	width: 0;
 	height: 100%;
-	background: #000;
+	background: #000000;
 	transition: all 0.35s;
 	border-radius: 4px;
 }
