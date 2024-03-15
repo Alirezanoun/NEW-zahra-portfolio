@@ -1,66 +1,66 @@
-@use './color' as *;
+@use "./color" as *;
 
 #wave {
-	margin-bottom: 60rem;
+  margin-bottom: 60rem;
 }
 
 .fill-image {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .image-gap {
-	width: 100%;
-	padding-top: 16px;
-	padding-right: 16px;
-	padding-left: 16px;
-	padding-bottom: 48px;
-	section {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		h1 {
-			font-size: 40px;
-			text-align: center;
-			grid-column-start: 2;
-			font-weight: 300;
-		}
-		.header-2 {
-			font-size: 5.5rem;
-			text-align: center;
-			color: $pink;
-			font-family: 'Sacramento', cursive;
-		}
-		.header-3 {
-			text-align: center;
-			color: #000;
-		}
-	}
+  width: 100%;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 48px;
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      grid-column-start: 2;
+      font-weight: 300;
+    }
+    .header-2 {
+      font-size: 5.5rem;
+      text-align: center;
+      color: $pink;
+      font-family: "Sacramento", cursive;
+    }
+    .header-3 {
+      text-align: center;
+      color: #000;
+    }
+  }
 }
 
 @media screen and (max-width: 960px) {
-	#wave {
-		padding-top: 110px;
-		transform: scale(1.5);
-		margin-bottom: 20rem;
-	}
+  #wave {
+    padding-top: 110px;
+    transform: scale(1.5);
+    margin-bottom: 20rem;
+  }
 
-	.image-gap {
-		section {
-			grid-template-columns: 1fr;
-			h1 {
-				font-size: 26px;
-			}
-			.header-2 {
-				font-size: 2.5rem;
-			}
-		}
-	}
+  .image-gap {
+    section {
+      grid-template-columns: 1fr;
+      h1 {
+        font-size: 26px;
+      }
+      .header-2 {
+        font-size: 2.5rem;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
-	#wave {
-		padding-top: 186px;
-		transform: scale(2.5);
-		padding-bottom: 183px;
-	}
+  #wave {
+    padding-top: 186px;
+    transform: scale(2.5);
+    padding-bottom: 183px;
+  }
 }
